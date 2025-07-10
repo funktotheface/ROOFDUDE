@@ -112,6 +112,24 @@ li {
     padding: 0.5rem;
 }
 
+.contactForm {
+    /* background-color: #FF4A1C; */
+    padding: 20px;
+    border:#FF4A1C 2px solid;
+    border-radius: 10px;
+    box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+    color: #FF4A1C;
+}
+
+.contactForm input,
+.contactForm textarea {
+    border: 1px solid #FF4A1C;
+    border-radius: 5px;
+    padding: 10px;
+    width: 100%;
+    box-sizing: border-box;
+}
+
 .carouselContainer {
     margin-top: 20px;
 }
