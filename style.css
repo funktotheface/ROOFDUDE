@@ -121,6 +121,13 @@ li {
     color: #FF4A1C;
 }
 
+.contactForm h2 {
+    color: #FF4A1C;
+    font-size: 2rem;
+    margin-bottom: 20px;
+    text-decoration: underline;
+}
+
 .contactForm input,
 .contactForm textarea {
     border: 1px solid #FF4A1C;
