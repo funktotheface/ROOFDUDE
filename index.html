@@ -1,0 +1,162 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Document</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.7/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-LN+7fdVzj6u52u30Kp6M/trliBMCMKTyK833zpbD+pXdCLuTusPj697FH4R/5mcr" crossorigin="anonymous" />
+  <link rel="stylesheet" href="style.css" />
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link
+    href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap"
+    rel="stylesheet">
+</head>
+
+<body>
+  <nav class="navbar navbar-expand-lg bg-body-tertiary">
+    <div class="container-fluid">
+      <a class="navbar-brand bebas-neue-regular" href="#">Roof Dude</a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+        aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarNav">
+        <ul class="navbar-nav">
+          <li class="nav-item">
+            <!-- <a class="nav-link active" aria-current="page" href="#">Home</a> -->
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">More Roof Stuff!</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">Definitly not stuff that isn't Roofs</a>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+
+  <div id="heroSection" class="sectionContainer position-relative">
+    <img id="heroImg" src="Assets/Media/Images/newFace.webp" alt="Hero Image"
+      class="img-fluid w-100 position-absolute top-0 start-0 h-100 object-fit-cover" style="z-index: 1;" />
+
+    <div id="heroContent" class="h-100 position-relative" style="z-index: 2;">
+      <div class="row">
+        <div class="col-md-6 mx-auto text-white py-5 text-start">
+          <div class="position-absolute top-0 start-0 text-white my-3">
+            <div id="topText">
+
+            <h2 class="bebas-neue-regular">Look At This Roof</h2>
+              <!-- <div class="text-center">
+                <a href="">
+                  <button type="button" class="btn btn-primary">Get a Quote</button>
+                </a>
+              </div> -->
+            </div>
+          </div>
+
+          <!-- Bottom-right text -->
+          <div class="position-absolute bottom-0 end-0 text-white my-3 text-end">
+            <!-- <p id="botText" class="mb-0">Your Roof will love it!</p> -->
+          </div>
+          <!-- <a href="about.html">
+          <button class="btn btn-primary">Services</button>
+          </a> -->
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div class="mainContent">
+
+
+
+
+    <div class="secondHeader">
+      <h2 class="text-center bebas-neue-regular">Why choose us?</h2>
+      <ul class="fa-ul">
+        <li><span class="fa-li"><i class="fa-solid fa-person-shelter fa-2x"></i></span><strong>Family Run Business</strong> Over 30 years of experience in the Roofing Trade</li>
+        <li><span class="fa-li"><i class="fa-solid fa-person-shelter fa-2x"></i></span><strong>ROOFS!</strong> I LIKE ROOFS ALOT THEYRE SO COOL does this text wrap yet?</li>
+        <li><span class="fa-li"><i class="fa-solid fa-person-shelter fa-2x"></i></span><strong>Work Guarantee</strong> I guarantee that is definitley a roof</li>
+      </ul>
+
+      <div class="text-center">
+                <a href="">
+                  <button type="button" class="btn btn-primary">Get a Quote Today!</button>
+                </a>
+              </div>
+
+
+
+    <div class="carouselContainer">
+      <div id="carouselId" class="carousel slide" data-bs-ride="carousel">
+        <!-- <ol class="carousel-indicators">
+          <li data-bs-target="#carouselId" data-bs-slide-to="0" class="active" aria-current="true"
+            aria-label="First slide"></li>
+          <li data-bs-target="#carouselId" data-bs-slide-to="1" aria-label="Second slide"></li>
+          <li data-bs-target="#carouselId" data-bs-slide-to="2" aria-label="Third slide"></li>
+        </ol> -->
+        <div class="carousel-inner" role="listbox">
+          <div class="carousel-item active">
+            <img src="Assets/Media/Images/slide1.jpg" class="w-100 d-block" alt="First slide" />
+          </div>
+          <div class="carousel-item">
+            <img src="Assets/Media/Images/slide2.jpg" class="w-100 d-block" alt="Second slide" />
+          </div>
+          <div class="carousel-item">
+            <img src="Assets/Media/Images/slide3.jpg" class="w-100 d-block" alt="Third slide" />
+          </div>
+        </div>
+        <button class="carousel-control-prev" type="button" data-bs-target="#carouselId" data-bs-slide="prev">
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Previous</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#carouselId" data-bs-slide="next">
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Next</span>
+        </button>
+      </div>
+
+    </div>
+  </div>
+
+  <a href="tel:1234567890" class="call-now-button">
+    <svg height="50px" width="50px" version="1.1" id="_x32_" xmlns="http://www.w3.org/2000/svg"
+      xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 512 512" xml:space="preserve">
+      <style type="text/css">
+        .st0 {
+          fill: #ffe4c4;
+        }
+      </style>
+      <g>
+        <path class="st0" d="M337.168,289.578c-5.129-5.133-13.457-5.133-18.598,0l-16.031,16.038c-4.68,4.68-12.122,5.149-17.352,1.102
+		c0,0-15.332-10.109-40.402-35.179c-25.07-25.07-35.175-40.414-35.175-40.414c-4.055-5.226-3.578-12.656,1.102-17.343l16.031-16.031
+		c5.141-5.134,5.141-13.462,0-18.594l-35.34-35.343c-5.133-5.133-13.453-5.133-18.594,0c-0.122,0.125-1.906,1.906-21.309,21.32
+		c-22.602,22.594,7.293,91.82,57.574,142.118c50.289,50.281,119.527,80.164,142.121,57.578
+		c19.394-19.406,21.184-21.203,21.305-21.32c5.141-5.133,5.141-13.461,0-18.586L337.168,289.578z" />
+
+      </g>
+    </svg>
+  </a>
+
+
+
+  <footer class="text-center py-3">
+    <p>&copy; 2023 Your Company. All rights reserved.</p>
+    <p>Follow us on:
+      <a href="#" class="">Facebook</a> |
+      <a href="#" class="">Twitter</a> |
+    </p>  
+    <script src=" script.js"></script>
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.7/dist/js/bootstrap.bundle.min.js"
+          integrity="sha384-ndDqU0Gzau9qJ1lfW4pNLlhNTkCfHzAVBReH9diLvGRem5+R9g2FzA8ZGN954O5Q"
+          crossorigin="anonymous"></script>
+
+          <script src="https://kit.fontawesome.com/9c42ee97f6.js" crossorigin="anonymous"></script>
+</body>
+
+</html>
