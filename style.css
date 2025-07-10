@@ -111,7 +111,9 @@ li {
     font-family: "Open Sans", sans-serif;
     padding: 0.5rem;
 }
-
+footer i {
+    color: #FF4A1C;
+}
 .contactForm {
     /* background-color: #FF4A1C; */
     padding: 20px;
@@ -141,6 +143,22 @@ li {
     margin-top: 20px;
 }
 
+.carouselContainer p {
+    color: rgb(255, 255, 255);
+    font-family: "Open Sans", sans-serif;
+    font-size: 2rem;
+    font-style: italic;
+    text-align: center;
+    margin-top: 10px;
+    background-color: #ff491ca4;
+    
+}
+
+.carousel-item img {
+filter: grayscale(60%);
+    width: 100%;
+    height: auto;
+}
 
 
 footer {
@@ -167,3 +185,4 @@ footer {
   z-index: 1000;
   transition: background-color 0.3s ease;
 }
+
